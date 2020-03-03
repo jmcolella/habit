@@ -5,6 +5,8 @@
     "lib": ["es5", "es6", "es7", "es2017", "dom"],
     "module": "commonjs",
     "jsx": "react",
+    "rootDir": "src",
+    "esModuleInterop": true,
     "moduleResolution": "node",
     "noImplicitAny": true,
     "removeComments": true,
