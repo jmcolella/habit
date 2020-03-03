@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "outDir": "build/lib",
+    "target": "ES5",
+    "lib": ["es5", "es6", "es7", "es2017", "dom"],
+    "module": "commonjs",
+    "jsx": "react",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "strictNullChecks": true,
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "build"
+  ]
+}
