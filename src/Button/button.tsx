@@ -5,8 +5,15 @@ interface Props {
   onClick: (params: string | object) => void
 }
 
-const Button = (props: Props) => (
-  <button onClick={props.onClick}>{ props.children }</button>
-);
+const Button = (props: Props) => {
+  const {
+    onClick,
+    children
+  } = props;
+
+  return (
+    <button onClick={onClick}>{ children }</button>
+  );
+};
 
 export default Button;
