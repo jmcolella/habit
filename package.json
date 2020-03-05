@@ -21,7 +21,8 @@
   "homepage": "https://github.com/jmcolella/habit#readme",
   "dependencies": {
     "react": "^16.13.0",
-    "react-dom": "^16.13.0"
+    "react-dom": "^16.13.0",
+    "styled-components": "^5.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.8.6",
@@ -33,6 +34,7 @@
     "@storybook/react": "^5.3.14",
     "@types/react": "^16.9.23",
     "@types/react-dom": "^16.9.5",
+    "@types/styled-components": "^5.0.1",
     "@typescript-eslint/eslint-plugin": "^2.22.0",
     "@typescript-eslint/parser": "^2.22.0",
     "babel-loader": "^8.0.6",
