@@ -22,11 +22,13 @@ const ButtonComponent = (props: Props) => {
 };
 
 const Button = styled(ButtonComponent)`
-  background-color: #69779b;
+  background-color: #003459;
   border: none;
   border-radius: 2px;
   color: white;
-  padding: 6px 24px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  padding: 12px 30px;
   transition: background-color .5s ease;
 
   &:focus {
@@ -34,13 +36,13 @@ const Button = styled(ButtonComponent)`
   }
 
   &:hover {
-    background-color: ${(props) => (props.disabled ? '#69779b' : '#9692af')};
+    background-color: ${(props) => (props.disabled ? '#003459' : '#325c7a')};
     cursor: pointer;
     transition: background-color .5s ease;
   }
 
   &:active {
-    background-color: #9692af;
+    background-color: #325c7a;
     cursor: 
   }
 

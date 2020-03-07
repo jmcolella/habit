@@ -4,8 +4,8 @@
   "description": "A simple React Component Library.",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint . ./src/**/*",
-    "storybook": "start-storybook",
+    "lint": "eslint . ./src/ --ext .ts --ext .tsx",
+    "styleguide": "styleguidist server",
     "start:dev": "rollup --config ./rollup.config.js --watch",
     "clean": "rm -rf dist"
   },
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/jmcolella/habit#readme",
   "dependencies": {
+    "core-js": "^3.6.4",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "styled-components": "^5.0.1"
@@ -31,7 +32,6 @@
     "@babel/preset-typescript": "^7.8.3",
     "@rollup/plugin-node-resolve": "^7.1.1",
     "@rollup/plugin-typescript": "^3.0.0",
-    "@storybook/react": "^5.3.14",
     "@types/react": "^16.9.23",
     "@types/react-dom": "^16.9.5",
     "@types/styled-components": "^5.0.1",
@@ -44,9 +44,12 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.18.3",
     "husky": "^4.2.3",
+    "react-docgen-typescript": "^1.16.2",
+    "react-styleguidist": "^10.6.2",
     "rollup": "^1.32.0",
     "ts-loader": "^6.2.1",
-    "typescript": "^3.8.3"
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.0"
   },
   "husky": {
     "hooks": {
